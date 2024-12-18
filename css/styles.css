@@ -542,7 +542,8 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--color-white);
+    letter-spacing: 0.02em;
+    color: #ffffff;
     margin-bottom: 16px;
 }
 
@@ -556,22 +557,23 @@ img {
 .footer__subscribe-input {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.5;
+    line-height: 2;
     letter-spacing: 0.04em;
-    color: var(--color-white);
+    color: #ffffff;
     background-color: transparent;
     min-width: 264px;
     min-height: 40px;
     flex-shrink: 0;
     padding-left: 16px;
     border-radius: 4px;
-    border: 1px solid var(--color-white);
+    border: 1px solid #ffffff;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer__subscribe-input::placeholder {
-    color: var(--color-white);
+    color: #ffffff;
 }
 
 .footer__subscribe-button {
@@ -580,8 +582,8 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--color-white);
-    background-color: var(--color-iris);
+    color: #ffffff;
+    background-color: #4D5AE5
     display: flex;
     align-items: center;
     justify-content: center;
@@ -601,7 +603,7 @@ img {
 }
 
 .footer__subscribe-icon {
-    fill: var(--color-white);
+    fill: #ffffff;
     margin-left: 16px;
 }
 
@@ -635,7 +637,7 @@ img {
     border-radius: 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
         0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-    background-color: var(--color-dairy);
+    background: #fcfcfc;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     padding: 72px 24px 24px 24px;
@@ -653,7 +655,7 @@ img {
     height: 24px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--color-cornflower);
+    background-color: #e7e9fc;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -662,7 +664,7 @@ img {
 .modal__button-close:focus {
     background-color: var(--color-ocean);
     border: none;
-    fill: var(--color-white);
+    fill: #ffffff;
 }
 
 .modal__icon-close {
@@ -672,7 +674,7 @@ img {
 
 .modal__button-close:hover .modal__icon-close,
 .modal__button-close:focus .modal__icon-close {
-    fill: var(--color-white);
+    fill: #ffffff;
 }
 
 .modal__title {
