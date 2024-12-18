@@ -583,7 +583,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background-color: #4D5AE5
+    background-color: #4D5AE5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -599,7 +599,7 @@ img {
 
 .footer__subscribe-button:hover,
 .footer__subscribe-button:focus {
-    background-color: var(--color-ocean);
+    background-color: #404bbf;
 }
 
 .footer__subscribe-icon {
@@ -662,13 +662,13 @@ img {
 
 .modal__button-close:hover,
 .modal__button-close:focus {
-    background-color: var(--color-ocean);
+    background-color: #404bbf;
     border: none;
     fill: #ffffff;
 }
 
 .modal__icon-close {
-    fill: var(--color-navy-blue);
+    fill: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -678,7 +678,7 @@ img {
 }
 
 .modal__title {
-    color: var(--color-navy-blue);
+    color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -693,7 +693,7 @@ img {
 }
 
 .modal__label {
-    color: var(--color-light-slate);
+    color: #8e8f99;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -718,15 +718,15 @@ img {
 }
 
 .modal__input:focus {
-    border-color: var(--color-iris);
+    border-color: #4D5AE5;
 }
 
 .modal__input:focus+.modal__icon {
-    fill: var(--color-iris);
+    fill: #4D5AE5;
 }
 
 .modal__icon {
-    fill: var(--color-navy-blue);
+    fill: #2E2F42;
     position: absolute;
     left: 16px;
     top: 50%;
@@ -761,7 +761,7 @@ img {
 }
 
 .modal__text-field:focus {
-    border-color: var(--color-iris);
+    border-color: #4D5AE5;
 }
 
 .modal__check-wrapper {
@@ -769,7 +769,7 @@ img {
 }
 
 .modal__check-input:checked+.modal__check-text .modal__check-box {
-    background-color: var(--color-ocean);
+    background-color: #404bbf;
     border: none;
     fill: var(--color-cloud);
 }
@@ -798,14 +798,14 @@ img {
 
 .modal__link-text {
     margin-left: 4px;
-    color: var(--color-iris);
+    color: #4D5AE5;
     text-decoration: underline;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__link-text:hover,
 .modal__link-text:focus {
-    color: var(--color-ocean);
+    color: #404bbf;
 }
 
 .modal__button-submit {
@@ -817,7 +817,7 @@ img {
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
-    background-color: var(--color-iris);
+    background-color: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
     margin: 0 auto;
@@ -831,5 +831,8 @@ img {
 
 .modal__button-submit:hover,
 .modal__button-submit:focus {
-    background-color: var(--color-ocean);
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff
+
 }
