@@ -771,11 +771,11 @@ img {
 .modal__check-input:checked+.modal__check-text .modal__check-box {
     background-color: #404bbf;
     border: none;
-    fill: var(--color-cloud);
+    fill: #ffffff;
 }
 
 .modal__check-text {
-    color: var(--color-light-slate);
+    color: #8e8f99;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -806,6 +806,7 @@ img {
 .modal__link-text:hover,
 .modal__link-text:focus {
     color: #404bbf;
+    fill: #ffffff; /* try */
 }
 
 .modal__button-submit {
