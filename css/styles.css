@@ -723,6 +723,7 @@ img {
 
 .modal__input:focus+.modal__icon {
     fill: #4D5AE5;
+    border-color: #4D5AE5;
 }
 
 .modal__icon {
@@ -834,6 +835,6 @@ img {
 .modal__button-submit:focus {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff
+    fill: #ffffff;
 
 }
